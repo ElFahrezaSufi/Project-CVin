@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-graybg; }
+
+/* Sembunyikan scrollbar di semua browser namun tetap memungkinkan scroll */
+html, body, #root {
+	height: 100%;
+}
+
+/* Firefox */
+* {
+	scrollbar-width: none;
+}
+/* IE/Edge lama */
+*::-ms-scrollbar { display: none; }
+/* Webkit */
+*::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
+
+/* Kelas opsional jika ingin aktifkan kembali scrollbar bergaya */
+.show-scrollbars::-webkit-scrollbar { width: 8px !important; height: 8px !important; }
+.show-scrollbars::-webkit-scrollbar-track { background: #f1f1f1; }
+.show-scrollbars::-webkit-scrollbar-thumb { background: #1E88E5; border-radius: 4px; }
+
+/* Wrapper khusus jika perlu menonaktifkan scrollbar tersembunyi per area */
+.custom-scroll-suppress { overscroll-behavior: contain; }
