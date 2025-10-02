@@ -1,13 +1,13 @@
 ## CVin – Generator CV Profesional
 
-CVin adalah aplikasi web generator CV sederhana dengan sistem Free & Premium. Dibangun menggunakan React + Tailwind CSS. Fokus pada tampilan modern, clean, dan minimalis untuk membantu pencari kerja di Indonesia membuat CV secara cepat.
+CVin adalah website generator CV sederhana dengan sistem Free & Premium. Dibangun menggunakan React + Tailwind CSS. Fokus pada tampilan modern, clean, dan minimalis untuk membantu pencari kerja di Indonesia membuat CV secara cepat.
 
 ### ✨ Fitur Utama
 - Generator CV dengan form dasar (Free) & tambahan (Premium)
 - Live preview real-time
 - Export PDF (Free & Premium) + Export Word (Premium)
 - Watermark otomatis untuk akun Free
-- Limit export (Free: 3x PDF) & limit CV tersimpan (Free: 1 CV)
+- Limit export (Free: 3x PDF) & limit CV tersimpan (Free: 1 CV yang disimpan)
 - Upgrade manual via pembayaran Dana + verifikasi admin
 - Admin panel sederhana untuk verifikasi pembayaran
 
@@ -75,3 +75,4 @@ Aplikasi ini masih prototipe (client-side only). Jangan simpan data sensitif.
 ---
 
 Dibuat untuk kebutuhan belajar & validasi ide. Kontribusi & saran dipersilakan.
+
